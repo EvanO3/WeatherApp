@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image:url(img/Weather.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+@media (max-width: 768px) {
+    body {
+      background-image: url('img/Weather.jpg');
+    }
+  }
+
+.Form{
+   display:flex;
+   justify-content: center;
+   align-content: center;
+   padding:30px;
+   margin:30px;
+   gap:10px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size:50px;
+}
+
+
+.card{
+    color:white
+}
