@@ -31,7 +31,47 @@ body{
     font-size:50px;
 }
 
-
+/* find a way to make it in a card format to appear when user selects where they are from*/
+.card2{
+  display: flex;
+  justify-content: center;
+}
 .card{
-    color:white
+  border: 3px solid black;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.7);
+  width: 15%;
+  margin: 30px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+ 
+  gap:10px;
+  background-color: white;
+
+}
+
+.words{
+ 
+}
+.words>p,h2{
+  text-align: center;
+
+}
+
+#location1{
+
+}
+
+input{
+  border: 3px solid black;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.7);
+  width: 200px;
+  height: 40px;
+}
+
+#btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 3px solid black;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.7);
 }
